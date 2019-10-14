@@ -1,0 +1,25 @@
+
+header {
+    border: 1px solid black;
+}
+nav.navbar {
+    padding:0 100px 0 100px;
+}
+
+span.navbar-brand.h1 {
+    font-family: "Georgia", Times, Times New Roman, serif;
+    font-size: 30px;
+    color: blue;
+    background-color: grey;
+    padding: 1rem;
+    margin: -3;
+}
+
+a.nav-link::after {
+    content: "|";
+    padding-left: 10px;
+}
+
+a.nav-link:last-child::after {
+    display: none;
+}
