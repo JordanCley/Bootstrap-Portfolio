@@ -1,37 +1,91 @@
+body {
+  background-color: gainsboro;
+  margin: 0;
+  padding: 0;
+}
+
 /* ********* NAVBAR START ******** */
 header {
-    border: 1px solid black;
+  border-bottom: 2px solid #bdbfbf;
 }
+
 nav.navbar {
-    padding:0 50px 0 50px;
+  padding: 0 50px 0 50px;
+  background-color: #777777 !important;
+}
+
+button.btn {
+  background-color: #fc9803;
+  border: none;
 }
 
 span.navbar-brand.h1 {
-    font-family: "Georgia", Times, Times New Roman, serif;
-    font-size: 30px;
-    color: blue;
-    background-color: grey;
-    padding: 1rem;
-    margin: -3;
+  font-family: "Georgia", Times, Times New Roman, serif;
+  font-size: 30px;
+  color: #fcfffa;
+  background-color: #fc9803;
+  padding: 1rem;
+  margin: -3;
 }
 
+span.letterStyle {
+  font-size: 2rem;
+}
+
+a {
+  font-size: 1.3rem;
+}
 a.nav-link::after {
-    content: "|";
-    padding-left: 10px;
+  content: "|";
+  padding-left: 10px;
+}
+a:hover {
+  color: #fc9803 !important;
 }
 
 a.nav-link:last-child::after {
-    display: none;
+  display: none;
+}
+
+.active a {
+  color: red !important;
+}
+
+h2 {
+  font-family: "Georgia", Times, Times New Roman, serif;
+  font-size: 2rem;
+  color: #fc9803;
+  padding-top: 10px;
+}
+
+hr {
+  color: #777777;
+  height: 5px;
+  border: 0;
+  box-shadow: 0 10px 10px -10px #8c8b8b inset;
 }
 
 /* ******* CONTAINER  ******* */
-.container  {
-    border: 1px solid black;
-    margin-top: 40px;
-    max-width: 800px;
+.container {
+  font-family: "Hepta Slab", serif;
+  font-size: .9rem;
+  border: 3px solid #bdbfbf;
+  margin-top: 40px;
+  max-width: 800px;
 }
 
 /* ********* IMAGE  ******** */
 img.bioPic {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+/* ******** Footer ******** */
+.footer {
+  position: relative;
+  margin-top: 250px;
+  text-align: center;
+  background-color: #777777;
+  height: 100px;
+  padding-top: 30px;
+  border-top: solid 5px #fc9803;
 }
