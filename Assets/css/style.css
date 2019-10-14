@@ -1,4 +1,4 @@
-
+/* ********* NAVBAR START ******** */
 header {
     border: 1px solid black;
 }
@@ -22,4 +22,16 @@ a.nav-link::after {
 
 a.nav-link:last-child::after {
     display: none;
+}
+
+/* ******* CONTAINER  ******* */
+.container  {
+    border: 1px solid black;
+    margin-top: 40px;
+    max-width: 800px;
+}
+
+/* ********* IMAGE  ******** */
+img.bioPic {
+    padding-bottom: 10px;
 }
