@@ -14,11 +14,6 @@ nav.navbar {
   background-color: #777777 !important;
 }
 
-button.btn {
-  background-color: #fc9803;
-  border: none;
-}
-
 span.navbar-brand.h1 {
   font-family: "Georgia", Times, Times New Roman, serif;
   font-size: 30px;
@@ -26,10 +21,6 @@ span.navbar-brand.h1 {
   background-color: #fc9803;
   padding: 1rem;
   margin: -3;
-}
-
-span.letterStyle {
-  font-size: 2rem;
 }
 
 a {
@@ -51,6 +42,11 @@ a.nav-link:last-child::after {
   color: red !important;
 }
 
+/* ***** Letter Decoration For About Me ***** */
+span.letterStyle {
+  font-size: 2rem;
+}
+
 h2 {
   font-family: "Georgia", Times, Times New Roman, serif;
   font-size: 2rem;
@@ -68,13 +64,19 @@ hr {
 /* ******* CONTAINER  ******* */
 .container {
   font-family: "Hepta Slab", serif;
-  font-size: .9rem;
+  font-size: 0.9rem;
   border: 3px solid #bdbfbf;
   margin-top: 40px;
   max-width: 800px;
 }
 
-/* ********* IMAGE  ******** */
+/* ******* Form Button ******* */
+button.btn {
+  background-color: #fc9803;
+  border: none;
+}
+
+/* ********* Image for About Me  ******** */
 img.bioPic {
   padding-bottom: 10px;
 }
@@ -90,6 +92,7 @@ img.bioPic {
   border-top: solid 5px #fc9803;
 }
 
+/* ****** Portfolio Start ******** */
 .gallery {
   position: relative;
   text-align: center;
@@ -97,9 +100,9 @@ img.bioPic {
 
 .imgText {
   background-color: #8c8b8b;
-  width: 14.7rem;
+  width: 14rem;
   position: absolute;
-  top:75%;
+  top: 75%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
