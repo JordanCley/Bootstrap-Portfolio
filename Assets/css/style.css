@@ -89,3 +89,17 @@ img.bioPic {
   padding-top: 30px;
   border-top: solid 5px #fc9803;
 }
+
+.gallery {
+  position: relative;
+  text-align: center;
+}
+
+.imgText {
+  background-color: #8c8b8b;
+  width: 14.7rem;
+  position: absolute;
+  top:75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
